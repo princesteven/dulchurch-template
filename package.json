@@ -16,17 +16,22 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "antd": "^4.9.4",
     "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
     "gatsby-plugin-image": "^0.3.1",
+    "gatsby-plugin-less": "^4.4.0",
     "gatsby-plugin-offline": "^3.6.0",
     "gatsby-plugin-postcss": "^3.3.0",
     "gatsby-plugin-sharp": "^2.10.1",
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-sharp": "^2.8.0",
+    "hamburger-react": "^2.4.0",
+    "moment": "^2.29.1",
     "postcss": "^8.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-minimal-side-navigation": "^1.5.1",
     "tailwindcss": "^2.0.2"
   }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 import { menus } from './menu'
-import Submenu from "./submenu"
+import Submenu from './submenu'
 import { navigate } from '@reach/router'
 
 const Nav = () => {
@@ -21,7 +21,7 @@ const Nav = () => {
 
     const renderMenu = menus.map(menu => 
         <li className="hover:bg-gray-primary">
-            <Link to={menu.link} onClick={ () => checkChildren(menu)} className="flex items-center py-3 px-4 space-x-1" activeClassName="bg-gray-primary">
+            <Link to={menu.children ? '#' : menu.link} onClick={ () => checkChildren(menu)} className="flex items-center py-3 px-4 space-x-1" activeClassName="bg-gray-primary">
                 {menu.icon}
                 <span>{menu.name}</span>
             </Link>
@@ -31,10 +31,11 @@ const Nav = () => {
     return (
         <nav>
             <div className="hidden md:block">
-                <ul className="flex items-center space-x-1 text-sm">
+                <ul className="flex flex-wrap items-center space-x-1 text-sm">
                     { renderMenu }
                 </ul>
             </div>
+            
             { hasChildren ? <Submenu submenus={children} /> : '' }
         </nav>
     )

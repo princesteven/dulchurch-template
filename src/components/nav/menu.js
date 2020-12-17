@@ -14,7 +14,7 @@ export const menus = [
     {
         'name': 'Makusanyo',
         'icon': <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path></svg>,
-        'link': '#',
+        'link': '/makusanyo',
         'children': [
             {
                 'name': 'Sadaka',
@@ -42,7 +42,7 @@ export const menus = [
     {
         'name': 'Kanisa',
         'icon': <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path></svg>,
-        'link': '#',
+        'link': '/kanisa',
         'children': [
             {
                 'name': 'Vigango',
@@ -65,7 +65,7 @@ export const menus = [
     {
         'name': 'Ripoti',
         'icon': <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>,
-        'link': '#',
+        'link': '/ripoti',
         'children': [
             {
                 'name': 'Ripoti ya Mapato',
@@ -84,7 +84,7 @@ export const menus = [
     {
         'name': 'Ratiba na Matukio',
         'icon': <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>,
-        'link': '#',
+        'link': '/ratiba-na-matukio',
     },
     {
         'name': 'Mawasiliano',
