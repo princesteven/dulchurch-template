@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import avatar from '../images/image.jpg'
 import Layout from '../components/layout'
-import { Card, Tabs, Col,  Descriptions } from "antd"
+import { EditTwoTone } from "@ant-design/icons"
+import { Card, Tabs, Col, Tooltip,  Descriptions } from "antd"
 
 const { TabPane } = Tabs
 const { Item } = Descriptions
@@ -15,17 +17,23 @@ const Parishioner = () => {
                         <img src={avatar} alt="avatar" className="w-52 h-52 rounded-full mx-auto" />
                     </div>
                     <div className="py-3 px-3">
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Age:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Date of Birth:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
-                        <div className="py-3"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Jina:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Jinsia:</span> Male</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Mwaka wa Kuzaliwa:</span> July 13, 2008</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Umri:</span> 12 years</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Mawasiliano:</span> +4686000827759</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Mawasiliano ya Dharura:</span> +4686000827759</div>
+                        <div className="py-3"><span className="font-semibold">Barua Pepe:</span> koch.alfredo@example.net</div>
+                        <div className="flex justify-between py-3">
+                            <button className="bg-blue-primary px-3 py-2 text-white rounded">Reset Password</button>
+                            <Link to='#'>
+                                <Tooltip title="Edit">
+                                    <EditTwoTone
+                                    style={{ fontSize: "24px" }}
+                                    />
+                                </Tooltip>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <div className="mb-3 col-span-2">
