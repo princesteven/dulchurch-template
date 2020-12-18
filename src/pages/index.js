@@ -58,7 +58,7 @@ const renderFamilies = forged_elements.map(() =>
         <div className="py-3 border-b-2">Eneo : Upanga</div>
         <div className="py-3 border-b-2">Jumuiya : Mt. Theresia</div>
         <div className="py-3 border-b-2">Idadi ya Wanafamilia : 4</div>
-        <div className="py-3">Jina la Kichwa cha Familia : Prince Steven Malipula</div>
+        <div className="py-3">Jina la Kichwa cha Familia : Ronalds Arnold Schwatzniger</div>
       </div>
     </div>
   )

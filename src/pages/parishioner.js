@@ -15,17 +15,17 @@ const Parishioner = () => {
                         <img src={avatar} alt="avatar" className="w-52 h-52 rounded-full mx-auto" />
                     </div>
                     <div className="py-3 px-3">
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Age:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Date of Birth:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
-                        <div className="py-3"><span className="font-semibold">Names:</span> Prince Steven Malipula</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Age:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Date of Birth:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3 border-b-2"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
+                        <div className="py-3"><span className="font-semibold">Names:</span> Ronalds Arnold Schwatzniger</div>
                     </div>
                 </div>
                 <div className="mb-3 col-span-2">
@@ -78,7 +78,7 @@ const Parishioner = () => {
                   </Item>
                   <Item label="Katengenezwa na">
                     <strong>
-                      Prince Steven Malipula
+                      Ronalds Arnold Schwatzniger
                     </strong>
                   </Item>
                 </Descriptions>
