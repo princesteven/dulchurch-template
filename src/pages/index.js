@@ -52,7 +52,7 @@ let forged_elements = [1,2,3,4,5];
 const renderFamilies = forged_elements.map(() => 
     <div className="rounded border-solid shadow-xl mb-3">
       <div className="py-4 px-4 border-b-2 items-center">
-        <h3 className="text-lg">Prince Malipula Family</h3>
+        <h3 className="text-lg">Arnold Schwatzniger Family</h3>
       </div>
       <div className="flex flex-col py-2 px-2">
         <div className="py-3 border-b-2">Eneo : Upanga</div>
